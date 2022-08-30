@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mert Chat App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.5.0/socket.io.js"
+        integrity="sha512-ttqbKrGZiTtSLguBZ2xNvZrhUv02IO/TRq5U6TG5TK90wbaXWup5kIJ1A1tLzjOk5Mea/G4seVNrU+lwTLfAzA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src='http://localhost:3000/socket.io/socket.io.js'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="chat-wrap">
+        <h2>Mert's Chat App v1.0</h2>
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <input type="text" id="sender" placeholder="Name">
+        <input type="text" id="message" placeholder="Message">
+        <button id="submitBtn">Send</button>
+    </div>
+
+
+
+
+
+
+    <script src="chat.js"></script>
+</body>
+
+</html>
